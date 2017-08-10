@@ -17,7 +17,16 @@ let genre;
 let description;
 
 
+
+function whoSmells(name){
+  console.log(name +" smells.");
+};
+
+whoSmells("That guy behind ryan");
+
+
 //creating template literal for results HTML
+
 let resultsHTML = `
   <div class="results-wrapper">
     <div class="date-box">
@@ -36,7 +45,8 @@ let resultsHTML = `
         <p class="description">${genre}: ${description}</p>
       </div>
     </div>
-  </div>`
+
+  </div>`;
 
 //adding template literal to HTML
 contentWrapper.innerHTML += resultsHTML;
