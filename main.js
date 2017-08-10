@@ -10,6 +10,11 @@ let location;
 let description;
 
 
+function whoSmells(name){
+  console.log(name +" smells.");
+};
+
+whoSmells("That guy behind ryan");
 
 let resultsHTML = `
   <div class="results-wrapper">
@@ -29,4 +34,4 @@ let resultsHTML = `
         <p class="description">${description}</p>
       </div>
     </div>
-  </div>`
+  </div>`;
