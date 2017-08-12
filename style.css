@@ -30,19 +30,22 @@ ul{
 li {
   height: 50vh;
   width: 50vw;
-  background-color: #713237;
+  background-color: #f4f4f4;
   padding: 10px;
   list-style: none;
   color: white;
+  /*border: 1px solid #c69398;*/
 }
 
 li>a {
-  color: white;
+  color: #8e3c43;
   text-decoration: none;
 }
 
 li>a>img {
   margin: 0 10px;
+  width: 150px;
+  height: 150px;
 }
 
 #tl {
@@ -50,6 +53,8 @@ li>a>img {
   flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: flex-end;
+
+
 }
 
 #tr {
@@ -57,21 +62,31 @@ li>a>img {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: flex-end;
+
 }
 
 #bl {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-  align-items: flex-start;
+  text-align: right;
+  background-color:
+}
+
+#bl>a>img {
+  float: right;
 }
 
 #br {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-
+  transition: .6s;
 }
+
+#br>a>img {
+  float: left;
+}
+
+#br:hover {
+
+  transition: .6s;
+}
+
 
 /*main page styles*/
 
