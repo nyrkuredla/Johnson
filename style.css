@@ -1,12 +1,13 @@
 /*
 Colors:
-
-red: #713237 (113, 50, 55);
-tan: #744F33 (116, 79, 51);
-blue-green: #204844 (32, 72, 68);
-green: #31602A (49, 96, 42);
-dark red brown: ##271217 (39, 18, 23)
-
+orange #cd7815
+lorange rgb(237, 167, 85)
+green #1b4642
+lgreen rgb(45, 120, 113);
+red #95333b
+lred rgb(200, 51, 63);
+blue #228c96
+lblue rgb(45, 187, 200);
 */
 
 * {
@@ -18,7 +19,7 @@ dark red brown: ##271217 (39, 18, 23)
 }
 
 #content-wrapper {
-  background-image: radial-gradient(rgb(235, 229, 229), rgb(179, 174, 174));
+  background-image: radial-gradient(rgb(240, 235, 235), rgb(176, 170, 170));
 }
 
 ul{
@@ -54,13 +55,15 @@ li>a>img {
   align-items: flex-end;
   border-top: 10px solid #cd7815;
   border-left: 10px solid #cd7815;
-  transition: .2s;
+  transition: .6s;
 }
 
 #tl:hover {
+  background-color: rgba(237, 167, 85, 0.20);
   border-top: 25px solid #cd7815;
   border-left: 25px solid #cd7815;
   transition: .5s ease;
+  padding: 20px;
 }
 
 #tr {
@@ -70,27 +73,30 @@ li>a>img {
   align-items: flex-end;
   border-right: 10px solid #1b4642;
   border-top: 10px solid #1b4642;
-  transition: .2s;
+  transition: .6s;
 }
 
 #tr:hover {
+  background-color: rgba(45, 120, 113, 0.20);
   border-right: 25px solid #1b4642;
   border-top: 25px solid #1b4642;
   transition: .5s ease;
+  padding: 20px;
 }
 
 #bl {
   text-align: right;
   border-bottom: 10px solid rgb(149, 51, 59);
   border-left: 10px solid rgb(149, 51, 59);
-  transition: .2s;
+  transition: .6s;
 }
 
 #bl:hover {
+  background-color: rgba(200, 51, 63, 0.20);
   border-bottom: 25px solid rgb(149, 51, 59);
   border-left: 25px solid rgb(149, 51, 59);
-  transition: .5s;
-  transition-timing-function: ease;
+  transition: .5s ease;
+  padding: 20px;
 }
 
 #bl>a>img {
@@ -100,14 +106,15 @@ li>a>img {
 #br {
   border-bottom: 10px solid #228c96;
   border-right: 10px solid #228c96;
-  transition: .2s;
+  transition: .6s;
 }
 
 #br:hover {
+  background-color: rgba(45, 187, 200, 0.20);
   border-bottom: 25px solid #228c96;
   border-right: 25px solid #228c96;
-  transition: .5s;
-  transition-timing-function: ease;
+  transition: .5s ease;
+  padding: 20px;
 }
 
 #br>a>img {
