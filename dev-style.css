@@ -1,0 +1,170 @@
+/*
+See below for individual style sections; please don't touch the default section without clearing it with everyone as you will probably break someone's styles!
+
+Colors:
+
+Colors:
+orange #cd7815
+green #1b4642
+red #95333b
+blue #228c96
+dark red brown: #271217 (39, 18, 23)
+light grey: #C1CACC (193, 202, 204)
+
+Default fonts on dev page, feel free to change or not:
+
+font-family: 'Della Respira', serif;
+font-family: 'Lato', sans-serif;
+
+*/
+
+/*DEFAULT STYLES*/
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #C1CACC;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  height: 5%;
+}
+
+header nav {
+  background-color: #271217;
+}
+
+nav.dev-nav ul {
+  display: flex;
+  justify-content: space-around;
+  color: #C1CACC;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+nav.dev-nav ul li {
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2%;
+  flex-grow: 1;
+}
+
+nav.dev-nav ul li a {
+  text-decoration: none;
+  color: #C1CACC;
+  height: 100%;
+  padding: 10% 15%;
+  font-size: 0.9em;
+  font-family: "Della Respira", serif;
+  transition-property: background-color color;
+  transition-duration: 1s;
+}
+
+nav.dev-nav ul li a:hover {
+  background-color: rgba(193, 202, 204, 0.5);
+  color: #271217;
+}
+
+div#content-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  height: 100%;
+}
+
+#top-half {
+  background-color: #C1CACC;
+  height: 50vh;
+  width: 100%;
+  flex-grow: 2;
+}
+
+#bottom-half {
+  background-color: #271217;
+  width: 100%;
+  height: 55vh;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+div.personal-pic {
+  height: 100px;
+  width: 100px;
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 100%;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+
+div#info-wrapper {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 3%;
+  margin: 0 auto;
+}
+
+section#about-me {
+  margin: 0 2%;
+  flex-grow: 1;
+  width: 40%;
+  color: #C1CACC;
+  padding: 1%;
+}
+
+section#about-me h2 {
+  font-family: "Della Respira", serif;
+}
+
+section#about-me p {
+  font-family: "Lato", sans-serif;
+}
+
+section#links {
+  margin: 0 2%;
+  flex-grow: 1;
+}
+
+section#links p {
+  font-family: "Della Respira", serif;
+  color: #C1CACC;
+  font-size: 1.2em;
+}
+
+section#links ul li {
+  list-style: none;
+}
+
+section#links ul li a {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: #C1CACC;
+  line-height: 1.2em;
+}
+
+
+
+/*END DEFAULT STYLES*/
+
+/*START INDIVIDUAL PAGE STYLES*/
+
+/*Alonya styles*/
+
+/*Josh styles*/
+
+/*Nick styles*/
+
+/*Ryan styles (not the Canadian comedian, just some CSS)*/
