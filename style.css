@@ -9,8 +9,78 @@ dark red brown: ##271217 (39, 18, 23)
 
 */
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+#content-wrapper {
+
+}
+
+ul{
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+li {
+  height: 50vh;
+  width: 50vw;
+  background-color: #713237;
+  padding: 10px;
+  list-style: none;
+  color: white;
+}
+
+li>a {
+  color: white;
+  text-decoration: none;
+}
+
+li>a>img {
+  margin: 0 10px;
+}
+
+#tl {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#tr {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#bl {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+#br {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+
+}
 
 /*main page styles*/
+
+
+
+
+
+
+
 /*
 header on main page will take up the whole page and have four quadrants, one for each dev
 
