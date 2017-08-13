@@ -204,9 +204,10 @@ div#top-half.ryan {
 
 div#top-half.ryan p {
   font-family: "Della Respira", sans-serif;
-  color: #C1CACC;
+  color: #228c96;
   font-size: 0.8em;
   position: absolute;
+  right: 5px;
   opacity: 0.5;
   transition-property: color opacity;
   transition-duration: 1s;
