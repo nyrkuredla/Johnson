@@ -202,6 +202,21 @@ div#top-half.ryan {
   background-repeat: no-repeat;
 }
 
+div#top-half.ryan p {
+  font-family: "Della Respira", sans-serif;
+  color: #C1CACC;
+  font-size: 0.8em;
+  position: absolute;
+  opacity: 0.5;
+  transition-property: color opacity;
+  transition-duration: 1s;
+}
+
+div#top-half.ryan p:hover {
+  opacity: 0.9;
+  color: #271217;
+}
+
 div#bottom-half.ryan {
   flex-flow: row wrap;
   background-color: #1b4642;
